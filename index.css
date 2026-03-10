@@ -1,0 +1,20 @@
+body {
+background-image: linear-gradient(165deg,white 17%, #7b9fc1 65%, #2d448e 90%);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+#clock {
+    left: 30%;
+    display: flex;
+    transform: translate(-15%, 100%);
+    position: absolute;
+    padding: 5rem;
+    font-size: 10vh;
+    color: rgb(6, 22, 37);
+
+}
